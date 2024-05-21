@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "809156901143",
+    "project_id": "teamtaskerapp",
+    "storage_bucket": "teamtaskerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809156901143:android:b6c827276f027b5b281f52",
+        "android_client_info": {
+          "package_name": "com.example.teamtaskerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhXxJKZUyUgNeOihK8f060KYPLVhzPaH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

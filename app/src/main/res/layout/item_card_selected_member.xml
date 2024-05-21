@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_selected_member_image"
+        android:layout_width="@dimen/item_selected_member_image_size"
+        android:layout_height="@dimen/item_selected_member_image_size"
+        android:contentDescription="@string/image_contentDescription"
+        android:src="@drawable/user"
+        android:visibility="visible"
+        app:civ_border_color="@color/colorTheme"
+        app:civ_border_width="@dimen/item_member_image_circular_width_size"
+        tools:visibility="gone" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_add_member"
+        android:layout_width="@dimen/item_selected_member_image_size"
+        android:layout_height="@dimen/item_selected_member_image_size"
+        android:contentDescription="@string/image_contentDescription"
+        android:src="@drawable/baseline_add_circle_24"
+        android:visibility="visible"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorPrimary"
+        tools:visibility="visible" />
+
+</LinearLayout>
